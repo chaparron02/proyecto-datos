@@ -33,18 +33,18 @@ try:
         print(f"hijos_vivos: {madre[3]}","\n") 
 
 #Se ejecuta la sentencia para mostrar los registros de la tabla padre 
-    """ cursor = conexion.cursor()
+    cursor = conexion.cursor()
     cursor.execute(sql2)
     padres = cursor.fetchall()
     print("****tabla padre***")
     for padre in padres:
         print(f"id_padre: {padre[0]}")
-        print(f"edad_padre: {padre[1]}","\n")  """
+        print(f"edad_padre: {padre[1]}","\n")
         
 
 #Se ejecuta la sentencia para mostrar los registros de la tabla bebe 
 
-    """ cursor = conexion.cursor()
+    cursor = conexion.cursor()
     cursor.execute(sql3)
     bebes = cursor.fetchall()
     print("****tabla bebe***")
@@ -60,7 +60,7 @@ try:
         print(f"apgar1: {bebe[8]}")
         print(f"apgar2: {bebe[9]}")
         print(f"id_madre_madre: {bebe[10]}")
-        print(f"id_padre_padre: {bebe[11]}") """
+        print(f"id_padre_padre: {bebe[11]}")
 
     
     
